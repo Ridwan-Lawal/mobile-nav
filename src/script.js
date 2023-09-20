@@ -11,7 +11,7 @@ menu.addEventListener("click", (e) => {
     e.target.closest(".hamburger").classList.toggle("is-active");
     e.target
       .closest(".nav-section")
-      .nextElementSibling.classList.toggle("w-1/2");
+      .nextElementSibling.classList.toggle("w-full");
     e.target.closest(".nav-section").nextElementSibling.classList.toggle("w-0");
     e.target
       .closest(".z-10")
