@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="/dist/output.css" rel="stylesheet" />
+    <link href="./src/hamburgers.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+  </head>
+  <body class="font-sans">
+    <nav class="flex flex-wrap justify-between relative">
+      <div class="nav-section px-8 py-3 flex justify-between border w-full">
+        <h1 class="header text-3xl font-bold z-10">Logo</h1>
+
+        <div class="z-10">
+          <button class="hamburger hamburger--vortex-r" type="button">
+            <span class="hamburger-box">
+              <span class="hamburger-inner"></span>
+            </span>
+          </button>
+        </div>
+      </div>
+
+      <ul
+        class="links transition-all duration-500 py-10 h-screen justify-center fixed bg-gradient-to-r flex flex-col items-center from-violet-900 to-fuchsia-700 space-y-10 text-center w-0"
+      >
+        <div class="group flex gap-3">
+          <li class="group-hover:scale-110 transition-transform duration-300">
+            <a href="">Home</a>
+          </li>
+          <p
+            class="h-7 w-7 opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-white border border-white"
+          ></p>
+        </div>
+        <div class="group flex gap-3">
+          <li class="group-hover:scale-110 transition-transform duration-300">
+            <a href="">Register</a>
+          </li>
+          <p
+            class="h-7 w-7 opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-white border border-white"
+          ></p>
+        </div>
+        <div class="group flex gap-3">
+          <li class="group-hover:scale-110 transition-transform duration-300">
+            <a href="">About</a>
+          </li>
+          <p
+            class="h-7 w-7 opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-white border border-white"
+          ></p>
+        </div>
+        <div class="group flex gap-3">
+          <li class="group-hover:scale-110 transition-transform duration-300">
+            <a href="">Contact</a>
+          </li>
+          <p
+            class="h-7 w-7 opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-white border border-white"
+          ></p>
+        </div>
+      </ul>
+    </nav>
+
+    <!-- script -->
+    <script src="./src/script.js"></script>
+  </body>
+</html>
